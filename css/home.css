@@ -1,0 +1,628 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+.client_box {
+   
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle, #0f22f9 0%, #00d4ff 100%);
+
+}
+.oop {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(141deg, #48ded4 0%, #a026bf 51%, #e82c75 75%);
+  }
+
+.side1 {
+    width: 60%;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+
+
+}
+#headname{
+    font-family: 'Gruppo', cursive;
+    font-size: xx-large;
+}
+#headname a{
+    color: #fff;
+}
+
+#headname a:hover{
+    color: #6a07fe;
+}
+.navbar-brand {
+    letter-spacing: 4px;
+    font-size: x-large !important;
+    font-family: 'Gruppo', cursive;
+
+}
+
+.box_shadow {
+    box-shadow: 2px 10px 10px #0000003b;
+}
+
+.side2 {
+    width: 40%;
+    height: 100vh;
+    background: linear-gradient(#0b0b3170, #0b0b317f, #0b0b3157, #0b0b3164, #9696a85f);
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+.doc_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+
+}
+
+.s1_box {
+    height: 75vh;
+    width: 100%;
+    background: linear-gradient(#0b0b3170, #1212527f, #11114f57, #16165464, #9696a85f);
+    border-radius: 10px;
+    transform: translate(-35%, -50%);
+}
+
+.s2_box {
+
+    height: 40vh;
+    width: 70%;
+    padding-top: 100px;
+    transform: translate(-35%, -50%);
+}
+
+.s2_box pre {
+    font-size: x-large;
+    text-transform: capitalize !important;
+}
+
+.navbar a {
+    color: #ffffff !important;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.d-flex ul li {
+    display: inline;
+    padding: 8px;
+    margin-left: 5px;
+    border: 2px solid #9696a8;
+    border-radius: 5px;
+}
+
+.d-flex ul li:hover {
+    background-color: #9696a8;
+
+}
+
+.d-flex ul li:hover a {
+    color: black !important;
+}
+
+.dropdown-menu li:hover a {
+    color: #000 !important;
+}
+
+.switch_box ul li {
+    background: #9696a8;
+}
+
+.switch_box ul li a {
+    color: #000;
+    text-transform: capitalize;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff8f !important;
+    border-radius: 5px;
+}
+
+.attaten {
+    display: block;
+}
+
+.attandence {
+    background: transparent;
+    width: 210px;
+    height: 210px;
+    color: rgba(255, 255, 255, 0.603);
+    padding-left: 25px;
+}
+
+span {
+    color: #0199ff;
+}
+
+.sidebox2 {
+    /* background-color: aqua; */
+    background-image: url("C:/Users/bsara/Downloads/cal6-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 266px;
+    height: 200px;
+    transform: translate(120px);
+}
+
+
+
+.overbox {
+    /* background-color: #000000; */
+    width: 100%;
+    height: 60vh;
+    /* box-shadow: 1px 2px 10px black; */
+
+}
+
+.attandence {
+    background: transparent;
+    text-transform: uppercase;
+    width: 100%;
+    height: 35vh;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 4px;
+
+
+}
+
+.overbox1 {
+    background-color: rgba(49, 47, 47, 0.101);
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/* .img2 {
+   
+    width: 40%;
+    height: 30vh;
+    background-image: url("C:/Users/bsara/OneDrive/Desktop/images/attendance4.jpeg");
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+.img3 {
+   
+    background-image: url("C:/Users/bsara/OneDrive/Pictures/tea.jpg");
+    background-position: center;
+
+    background-size: cover;
+    
+    width: 60%;
+    height: 30vh;
+} */
+
+
+.a {
+    background-color: #80808073;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    position: absolute;
+    z-index: 1;
+    transform: translate(25px);
+    border-radius: 5%;
+
+}
+
+.a1 {
+    background-color: #0c58dceb;
+    width: 200px;
+    height: 230px;
+    border-radius: 5%;
+
+    position: absolute;
+    z-index: 1;
+    transform: translate(200px);
+}
+
+h4 {
+    text-align: center;
+}
+
+/* .card{
+    
+    height:200px;
+} */
+.a2 {
+    background-color: #ea16b9cf;
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+    position: absolute;
+    /*     z-index: ; */
+    transform: translate(370px);
+    border-radius: 5%;
+
+}
+
+
+
+
+
+
+
+
+
+/* main_________________________________________________ */
+
+#main {
+    background-image: url("C:/Users/bsara/OneDrive/Pictures/20382896.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100wv;
+    height: 120vh;
+}
+
+
+.sar {
+
+    background-color: rgba(16, 14, 32, 0.811);
+    width: 100wv;
+    height: 120vh;
+
+}
+
+.about {
+    background-color: rgba(255, 255, 255, 0.354);
+    position: relative;
+    width: 280px;
+    height: 360px;
+    display: flex;
+    transform: translate(40%, 30%);
+    z-index: 1;
+    border-radius: 40%;
+
+
+}
+
+.about_up {
+    background: radial-gradient(greenyellow, greenyellow, greenyellow, #008000bd, green, green);
+    width: 160px;
+    height: 160px;
+    display: flex;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-124%, -150%);
+    box-shadow: -1px 6px 30px greenyellow;
+    z-index: 0;
+
+}
+
+.about_main {
+    background-color: rgba(255, 255, 255, 0.276);
+    position: relative;
+
+    width: 280px;
+    height: 360px;
+    display: flex;
+    z-index: 1;
+    box-shadow: 1px 2px 10px black;
+}
+
+.about_down {
+
+    background: radial-gradient(orangered, orange, rgba(255, 166, 0, 0.842));
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(30%, 60%);
+    z-index: 0;
+
+    box-shadow: 2px 2px 20px orangered;
+
+
+}
+
+.about1 {
+    background: transparent;
+    width: 610px;
+    height: 200px;
+    float: right;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+.card-body1 {
+    background-color: rgba(27, 24, 21, 0.089);
+    box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.562);
+}
+
+.card-body {
+    background-color: rgba(16, 15, 15, 0.224);
+    box-shadow: -1px 2px 10px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text2 {
+    text-align: center;
+
+
+}
+
+.card-header {
+    text-align: center;
+}
+
+.card-text1 {
+    text-align: left;
+}
+
+.card-body3 {
+    /* background-color:orange; */
+    background-image: url("C:/Users/bsara/OneDrive/Pictures/20382896.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: -1px 2px 10px black;
+
+}
+
+marquee {
+    color: rgba(255, 255, 255, 0.816);
+    font-size: larger;
+    text-transform: capitalize;
+}
+
+p {
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 40px;
+
+
+}
+
+#login{
+    width: 300px;
+    height: 48vh;
+}
+#signup{
+    width: 300px;
+    height: 48vh;
+}
+
+.login_container{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    width: 100%;
+}
+.login_box
+{
+    width: 30%;
+    display: flex;
+}
+
+.sidedoc{
+    width: 70%;
+    height: 55vh;
+    background-attachment: fixed; 
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+.containerra {
+    width: 70rem;
+    height: 45rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+  }
+  
+  .containerra:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+    margin: -20px;
+  }
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+ 
+  
+
+
+
+
+
+
+.footer-07 {
+    
+    color: black !important;
+    
+}
+.footer_container{
+    background: #00000051;
+}
+
+
+
+.footer-07 a {
+    color: rgb(17, 17, 56) !important;
+}
+
+.ftco-footer-social li {
+    display: inline;
+    margin: 10px;
+
+}
+
+.ftco-footer-social li a i {
+    font-size: x-large;
+    border: 1px solid rgb(85, 112, 232);
+    padding: 10px;
+    color: rgb(85, 112, 232);
+    border-radius: 50%;
+}
+
+.ftco-footer-social li:hover a i {
+    background: #fff;
+    color: #000;
+}
+
+.footer-heading {
+    margin-bottom: 20px;
+}
+
+.footer-07 .menu {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-07 .menu a {
+    margin: 0px 5px;
+}
+
+.logo {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 760px) {
+    header {
+        width: 100%;
+        height: 100%;
+    }
+
+    .side1 {
+        width: 100%;
+        
+
+    }
+
+    .side2 {
+        width: 100%;
+        background: linear-gradient( #9696a85f ,#0b0b3164,#0b0b3157, #0b0b317f,#0b0b3170 );
+
+
+    }
+
+    .sideimage {
+        background-color: aliceblue;
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .s1_box {
+        transform: translate(-50%, -50%);
+        height: 100vh;
+        border-radius: 0;
+
+    }
+
+    .box_shadow {
+        box-shadow: 0px 0px 0px #0000003b;
+    }
+
+    .side2 h2 {
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .bb {
+        width: 100%;
+    }
+    .sidedoc{
+        width: 100%;
+        height: 30vh;
+        background-color: #096984;
+    }
+
+}
