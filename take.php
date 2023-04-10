@@ -47,7 +47,11 @@
   <script src="js/bootstrap.min.js"></script>
   <!-- Custom styles for this template -->
     <link href="navbar-fixed-top.css" rel="stylesheet">
- 
+  <script>
+    var numberOfDays = <?php echo $node->getDays(); ?>;
+    var class_id = <?php echo $class_id;?>;
+    var teacher_id = <?php echo $teacher_id; ?>;
+  </script>
   <script src="js/take.js"></script>
  </head>
  <body>

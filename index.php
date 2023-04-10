@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/about.js" defer></script>
 
     <!-- Boot strap links-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -110,7 +111,25 @@
   
  <main>
     <div class="main_first">
-        hello
+        
+
+
+    <div class="main-box-container">
+        <div class="box1-content about-content">
+          <h1>Hello,</h1>
+          <p>Utilise outside the box thinking and try to think outside the box. Build transformation mapping and then maximise share of voice. Repurpose agile and then create a better customer experience. Funneling brand ambassadors so that as an end result, we further your reach. Leveraging customer journeys and possibly use best practice.</p>
+        </div>
+        <div class="box1-side">
+          <button class="right-button buttoon">⟶</button>
+        </div>
+        <div class="box2-side">
+          <button class="left-button buttoon">⟵</button>
+        </div>
+        <div class="box2-content-about about-content">
+          <h1>Good Bye,</h1>
+          <p>Leveraging growth hacking while remembering to think outside the box. Engage agile and above all, be CMSable. Generate innovation yet disrupt the balance. Leading cloud computing with the aim to be CMSable. Lead core competencies with a goal to be on brand. Create brand pillars in order to get buy in.</p>
+        </div>
+      </div>
     </div>
   
  </main>
